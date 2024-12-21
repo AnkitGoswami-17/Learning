@@ -198,6 +198,6 @@ console.log(ele);
 
 let ele2 = document.getElementsByClassName("container");
 console.log(ele2);
-// ele2[0].style.background = "yellow";
+ele2[0].style.background = "yellow";
 ele2[1].style.background = "pink";
-ele2[0].classList.add("bg-primary");
+ele2[0].classList.add("bg-color");

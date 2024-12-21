@@ -16,15 +16,18 @@
         <br>
         <button type="button" onclick="calculateSum()">Calculate</button>
     </form>
-    <h2 id="result"></h2>
+    <h2 id="result">abra ka dabra</h2>
 
     <script>
         function calculateSum() {
             const num1 = parseFloat(document.getElementById('number1').value);
             const num2 = parseFloat(document.getElementById('number2').value);
             const sum = num1 + num2;
-            document.getElementById('result').innerText = 'Total: ' + sum;
+            document.getElementById('result').innerText = 'Total: ' + sum;    
         }
+        const ele = document.getElementById("sumForm");
+        const content = ele.innerHTML;
+        console.log(content);
     </script>
 </body>
 </html>
